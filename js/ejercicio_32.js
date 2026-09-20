@@ -4,14 +4,14 @@ let estadoTrabajador = "PLANILLA"
 
 let montoHijos = hijosTotal * 20;
 if(estadoCivil === "VIUDA"){
-    montoCivil = montoHijos + 70;
+    montoCivil = 70;
 }else{
-    montoCivil = hijosTotal + 0;
+    montoCivil = 0;
 }
 if(estadoTrabajador === "PLANILLA"){
-    montoTrabajador = montoHijos + 50; 
+    montoTrabajador = 50; 
 }else{
-    montoTrabajador = montoHijos + 0;
+    montoTrabajador = 0;
 }
 
 let montoTotal = montoHijos + montoCivil + montoTrabajador; 

@@ -6,6 +6,7 @@ let sueldoBase =  horasTrabajadas * sueldoHora;
 let horasExtrasTotales = horasTrabajadas - 40;
 if (horasExtrasTotales <= 8) {
     horasExtrasTotales = horasExtrasTotales * (sueldoHora * 2);
+    sueldoExtra = horasExtrasTotales;
 } else {
     let pagoDobles = horasExtrasTotales * (sueldoHora * 2);
     let pagoTriples = sueldoHora * 3;
